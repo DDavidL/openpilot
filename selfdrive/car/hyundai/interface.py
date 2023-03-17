@@ -152,6 +152,10 @@ class CarInterface(CarInterfaceBase):
       ret.mass = 1700. + STD_CARGO_KG  # weight from SX and above trims, average of FWD and AWD versions
       ret.wheelbase = 2.756
       ret.steerRatio = 13.6  # steering ratio according to Kia News https://www.kiamedia.com/us/en/models/sportage/2023/specifications
+    elif candidate == CAR.KIA_CARNIVAL_2022:
+      ret.mass = 2095. + STD_CARGO_KG  #
+      ret.wheelbase = 3.09
+      ret.steerRatio = 14.23 # https://www.kiamedia.com/us/en/models/carnival/2023/specifications
     elif candidate in (CAR.KIA_OPTIMA_G4, CAR.KIA_OPTIMA_G4_FL, CAR.KIA_OPTIMA_H):
       ret.mass = 3558. * CV.LB_TO_KG
       ret.wheelbase = 2.80
