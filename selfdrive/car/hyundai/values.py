@@ -1544,32 +1544,14 @@ FW_VERSIONS = {
     ]
   },
   CAR.KIA_CARNIVAL_2022: {
-    (Ecu.abs, 0x7D1, None): [
-      b'\xf1\x00KA4 ESC \x01 101!\x07\x03 58910-I4300',
-	    b'\xf1\x8758910-I4300\xf1\x00KA4 ESC \x01 101!\x07\x03 58910-I4300',
+    (Ecu.fwdCamera, 0x7c4, None): [
+      b'\xf1\x00KA4CMFC  AT CHN LHD 1.00 1.01 99211-I4000 210525',
+	    b'\xf1\x00KA4CMFC  AT CHN LHD 1.00 1.01 99211-I4000 210525',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00KA4c SCC FHCUP      1.00 1.01 99110-I4000         ',
 	    b'\xf1\x8799110I4000\xf1\x00KA4c SCC FHCUP      1.00 1.01 99110-I4000         ',
 	    b'\xf1\x00KA4c SCC FHCUP      1.00 1.01 99110-I4000         ',
-    ],
-	  (Ecu.eps, 0x7d4, None): [
-      b'\xf1\x00KA4 MDPS C 1.00 1.00 56370-I4000 1528',
-    ],
-	  (Ecu.fwdCamera, 0x7c4, None): [
-      b'\xf1\x00KA4CMFC  AT CHN LHD 1.00 1.01 99211-I4000 210525',
-	    b'\xf1\x00KA4CMFC  AT CHN LHD 1.00 1.01 99211-I4000 210525',
-    ],
-    (Ecu.engine, 0x7e0, None): [
-      b'\xf1\x87           \xf1\x81           ',
-	    b'TKAC1P60AQ300E0K',
-	    b'\xf1\x87           \xf1\x8908A03_613_RC0930\xf1\x82TKAC1P60AQ300E0K',
-    ],
-	  (Ecu.cornerRadar, 0x7B7, None): [
-      b'\xf1\x00KA4 BCW RR 1.01 , 1.03 (s\x132!\x01V\x06\x01',
-    ],
-    (Ecu.transmission, 0x7e1, None): [
-      b'SKA4T20XXXSB0CS2',
     ],
   },
   CAR.KIA_EV6: {
