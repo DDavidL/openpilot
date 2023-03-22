@@ -1546,12 +1546,10 @@ FW_VERSIONS = {
   CAR.KIA_CARNIVAL_2022: {
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00KA4CMFC  AT CHN LHD 1.00 1.01 99211-I4000 210525',
-	    b'\xf1\x00KA4CMFC  AT CHN LHD 1.00 1.01 99211-I4000 210525',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00KA4c SCC FHCUP      1.00 1.01 99110-I4000         ',
 	    b'\xf1\x8799110I4000\xf1\x00KA4c SCC FHCUP      1.00 1.01 99110-I4000         ',
-	    b'\xf1\x00KA4c SCC FHCUP      1.00 1.01 99110-I4000         ',
     ],
   },
   CAR.KIA_EV6: {
